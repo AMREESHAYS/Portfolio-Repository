@@ -1,0 +1,64 @@
+/* style.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Navigation styling */
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  /* Container to center content */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  /* Section styling for content areas */
+  section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive design adjustments for smaller screens */
+  @media (max-width: 600px) {
+    .container {
+      width: 95%;
+    }
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
